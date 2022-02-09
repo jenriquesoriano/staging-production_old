@@ -151,7 +151,7 @@ mkdir -p "$ETF_DIR"/ds/db/repo
 mkdir -p "$ETF_DIR"/ds/db/data
 mkdir -p "$ETF_DIR"/projects
 mkdir -p "$ETF_DIR"/config
-unzip ui.zip -d "$ETF_DIR"
+unzip -o ui.zip -d "$ETF_DIR"
 
 if [ ! -n "$ETF_RELATIVE_URL" ]; then
     ETF_RELATIVE_URL=etf-webapp
